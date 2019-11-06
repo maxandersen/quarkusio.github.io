@@ -1,3 +1,9 @@
+PATH
+  remote: ../../asciidoctor-tabbed-code
+  specs:
+    asciidoctor-tabbed-code (0.1.0)
+      asciidoctor (>= 1.5.7, < 3.x)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -87,6 +93,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  asciidoctor-tabbed-code!
   jekyll (~> 3.8.3)
   jekyll-asciidoc
   jekyll-feed (~> 0.6)
@@ -96,4 +103,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

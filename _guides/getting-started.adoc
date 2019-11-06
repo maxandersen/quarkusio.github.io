@@ -73,7 +73,19 @@ The solution is located in the `getting-started` directory.
 
 The easiest way to create a new Quarkus project is to open a terminal and run the following command:
 
-[source,shell,subs=attributes+]
+[source,shell,subs=attributes+,role="primary"]
+.Linux/OSX
+----
+mvn io.quarkus:quarkus-maven-plugin:{quarkus-version}:create \
+    -DprojectGroupId=org.acme \
+    -DprojectArtifactId=getting-started \
+    -DclassName="org.acme.quickstart.GreetingResource" \
+    -Dpath="/hello"
+cd getting-started
+----
+
+[source,shell,subs=attributes+,role="secondary"]
+.Windows
 ----
 mvn io.quarkus:quarkus-maven-plugin:{quarkus-version}:create \
     -DprojectGroupId=org.acme \
