@@ -4,20 +4,22 @@
 <head>
   <title>Quarkus - Supersonic Subatomic Java</title>
   <script id="adobe_dtm" src="https://www.redhat.com/dtm.js" type="text/javascript"></script>
-  <script src="/assets/javascript/highlightjs-pack.js" type="text/javascript"></script>
-  <META HTTP-EQUIV='Content-Security-Policy' CONTENT="default-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-ANpuoVzuSex6VhqpYgsG25OHWVA1I+F6aGU04LoI+5s=' 'sha256-ipy9P/3rZZW06mTLAR0EnXvxSNcnfSDPLDuh3kzbB1w=' js.bizographics.com https://www.redhat.com assets.adobedtm.com jsonip.com https://ajax.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com https://use.fontawesome.com; style-src 'self' https://fonts.googleapis.com https://use.fontawesome.com; img-src 'self' *; media-src 'self' ; frame-src https://www.googletagmanager.com; frame-ancestors 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com;">
+  <script src="/assets/javascript/highlight.pack.js" type="text/javascript"></script>
+  <META HTTP-EQUIV='Content-Security-Policy' CONTENT="default-src 'none'; script-src 'self' 'unsafe-eval' 'sha256-ANpuoVzuSex6VhqpYgsG25OHWVA1I+F6aGU04LoI+5s=' 'sha256-ipy9P/3rZZW06mTLAR0EnXvxSNcnfSDPLDuh3kzbB1w=' js.bizographics.com https://www.redhat.com assets.adobedtm.com jsonip.com https://ajax.googleapis.com https://www.googletagmanager.com https://www.google-analytics.com https://use.fontawesome.com; style-src 'self' https://fonts.googleapis.com https://use.fontawesome.com; img-src 'self' *; media-src 'self' ; frame-src https://www.googletagmanager.com https://www.youtube.com; frame-ancestors 'none'; base-uri 'none'; object-src 'none'; form-action 'none'; font-src 'self' https://use.fontawesome.com https://fonts.gstatic.com;">
   <META HTTP-EQUIV='X-Frame-Options' CONTENT="DENY">
   <META HTTP-EQUIV='X-XSS-Protection' CONTENT="1; mode=block">
   <META HTTP-EQUIV='X-Content-Type-Options' CONTENT="nosniff">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Quarkus: Supersonic Subatomic Java">
+  <link rel="canonical" href="https://quarkus.io/">
   <link rel="shortcut icon" type="image/png" href="/favicon.ico" >
+  <link rel="stylesheet" href="https://quarkus.io/guides/stylesheet/config.css" />
   <link rel="stylesheet" href="/assets/css/main.css" />
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="alternate" type="application/rss+xml"  href="https://quarkus.io//feed.xml" title="Quarkus">
-  <script src="https://quarkus.io//assets/javascript/goan.js" type="text/javascript"></script>
-  <script src="https://quarkus.io//assets/javascript/hl.js" type="text/javascript"></script>
+  <link rel="alternate" type="application/rss+xml"  href="https://quarkus.io/feed.xml" title="Quarkus">
+  <script src="https://quarkus.io/assets/javascript/goan.js" type="text/javascript"></script>
+  <script src="https://quarkus.io/assets/javascript/hl.js" type="text/javascript"></script>
 </head>
 
 <body class="homepage">
@@ -26,12 +28,13 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div class="content">
-    <div class="navigation-wrapper">
+  <div class="navigation-wrapper">
   <div class="width-12-12">
     <div class="header navigation">
       <div class="logo-wrapper">
-        <a href="/"><img src="/assets/images/quarkus_logo_horizontal_rgb_reverse.svg" class="project-logo" title="Quarkus"></a>
+        
+          <a href="/"><img src="/assets/images/quarkus_logo_white.png" class="project-logo" title="Quarkus"></a>
+        
       </div>
       <div class="nav-container">
         <nav>
@@ -44,13 +47,13 @@
               <a href="/guides/" class="">Guides</a>
             </li>
             <li>
-              <a href="/extensions/" class="">Extensions</a>
-            </li>
-            <li>
               <a href="/community/" class="">Community</a>
             </li>
             <li>
               <a href="/blog/" class="">Blog</a>
+            </li>
+            <li>
+              <a href="https://code.quarkus.io" class="button-cta secondary white">Start Coding</a>
             </li>
           </ul>
         </nav>
@@ -59,51 +62,63 @@
   </div>
 </div>
 
+  <div class="content">
     <div class="quarkus-homepage">
   <div class="grid-wrapper homepage-hero-band">
-  <div class="grid__item width-12-12">
-    <div class="home-hero">
-      <img src="/assets/images/quarkus_logo_horizontal_rgb_reverse.svg" class="project-logo" title="Quarkus">
-      <h2>Supersonic Subatomic Java</h2>
-      <p>A Kubernetes Native Java stack tailored for GraalVM & OpenJDK HotSpot, crafted from the best of breed Java libraries and standards</p>
-      <a href="/get-started/" class="button-cta secondary">Get Started</a>
-      <a href="#" class="scroll-down" address="true"></a>
+  <div class="grid__item width-12-12 title-band">
+    <h1>Supersonic Subatomic Java</h1>
+    <p>
+      A Kubernetes Native Java stack tailored for OpenJDK HotSpot and GraalVM, crafted from the best of breed Java libraries and standards.
+      <br/><br/>
+      <a href="/get-started/" class="button-cta">Get Started with Quarkus</a>
+    </p>
+  </div>
+  <div class="grid__item width-6-12 homepage-hero-band-lcontent">
+    <div class="img-wrapper">
+      <a href="/blog/quarkus-wins-devies-award/">
+        <img src="/assets/images/devies_herographic.svg" class="" title="2020 Devies Awards">
+      </a>
+    </div>
+  </div>
+  <div class="grid__item width-6-12 homepage-hero-band-rcontent">
+    <p>Now Available</p>
+    <h3>Quarkus 1.2.1</h3>
+    <a href="/blog/quarkus-1-2-1-final-released/">More Information</a>
+  </div>
+  <div class="grid__item width-12-12 homepage-hero-band-scroll">
+    <a href="#" class="scroll-down" address="true"></a>   
+  </div>
+</div>
+
+  <div class="full-width-bg component homepage-content-band">
+  <div class="grid-wrapper">
+    <div id="container-first" class="width-12-12">
+      <h2>Container First</h2>
+    </div>
+    <div class="width-12-12 block-content">
+      <p>Quarkus tailors your application for GraalVM and HotSpot. Amazingly fast boot time, incredibly low RSS memory (not just heap size!) offering near instant scale up and high density memory utilization in container orchestration platforms like Kubernetes. We use a technique we call compile time boot. <a href="/vision/container-first">Learn more.</a></p>
+      <pre class="highlightjs highlight"><code class="bash">$ ./my-native-java-rest-app
+Quarkus started in 0.008s</code></pre>
+      <img src="/assets/images/quarkus_metrics_graphic_bootmem_wide.png">
     </div>
   </div>
 </div>
 
-  <div class="full-width-bg component homepage-highlights-band">
-  <div class="width-12-12 highlights-alternating-inline-block">
-    
-    <div class="grid-wrapper">
-      <div class="width-12-12">
-        <h2>Container First</h2>
-        <img src="/assets/images/quarkus_graphics_v3_bootmem_wide_03.png">
-      </div>
-      <div class="width-8-12 width-12-12-m block-content">
-        <p>Quarkus tailors your application for GraalVM and HotSpot.
-        Amazingly fast boot time, incredibly low RSS memory (not just heap size!) offering near instant scale up and high density memory utilization in container orchestration platforms like Kubernetes.
-        We use a technique we call compile time boot. <a href="/vision/container-first">Learn more</a>.</p>
-      </div>
-      <div class="width-4-12 width-12-12-m block-content">
-        <pre class="highlight"><code class="bash">$ ./my-native-java-rest-app
-Quarkus started in 0.008s</code></pre>
-      </div>
+  <div class="full-width-bg component homepage-content-band alt-background">
+  <div class="grid-wrapper">
+    <div class="width-12-12 block-content">
+      <h2>Unifies Imperative and Reactive</h2>
     </div>
-  </div>
-  <div class="width-12-12 highlights-alternating-inline-block">
-    <div class="grid-wrapper">
-      <div class="width-7-12 width-12-12-m block-content">
-        <h2>Unifies Imperative and Reactive</h2>
-        <p>Combine both the familiar imperative code and the non-blocking reactive style when developing applications.
-        <a href="/vision/continuum">Learn more</a>.</p>
-      </div>
-      <div class="width-5-12 width-12-12-m block-image">
-        <div class="tabs">
-  <input type="radio" name="tabs" id="tab1" checked="checked">
-  <label for="tab1">Imperative</label>
-  <div class="tab">
-<pre class="highlight"><code>@Inject
+    <div class="width-12-12 width-12-12-m">
+      <p>Combine both the familiar imperative code and the non-blocking reactive style when developing applications.
+      <a href="/vision/continuum">Learn more</a>.</p>
+    </div>
+    <div class="width-12-12 width-12-12-m">
+      <div class="grid-wrapper">
+        <div class="width-6-12 code-item">
+          <div class="code-label">Imperative</div>
+          <div class="code-wrapper">
+            <pre class="highlight"><code>@Inject
 SayService say;
 
 @GET
@@ -111,12 +126,12 @@ SayService say;
 public String hello() {
     return say.hello();
 }</code></pre>
-  </div>
-  
-  <input type="radio" name="tabs" id="tab2">
-  <label for="tab2">Reactive</label>
-  <div class="tab">
-<pre class="highlight"><code>@Inject @Stream("kafka")
+          </div>
+        </div>
+        <div class="width-6-12 code-item">
+          <div class="code-label">Reactive</div>
+          <div class="code-wrapper">
+            <pre class="highlight"><code>@Inject @Channel("kafka")
 Publisher&lt;String&gt; reactiveSay;
 
 @GET
@@ -124,129 +139,65 @@ Publisher&lt;String&gt; reactiveSay;
 public Publisher&lt;String&gt; stream() {
     return reactiveSay;
 }</code></pre>
-  </div>
-</div>
-
+          </div>
+        </div>
       </div>
     </div>
   </div>
-  <div class="width-12-12 highlights-alternating-inline-block">
-    
-    <div class="grid-wrapper">
-      <div class="width-4-12 width-12-12-m block-image">
-        <img src="/assets/images/quarkus_graphics_v3_devjoy_02.png"/>
-      </div>
-      <div class="width-1-12 hide-mobile"></div>
-      <div class="width-7-12 width-12-12-m block-content">
-        <h2>Developer Joy</h2>
-        <p>A cohesive platform for optimized developer joy:
-          <ul>
-              <li>Unified configuration</li>
-              <li>Zero config, live reload in the blink of an eye</li>
-              <li>Streamlined code for the 80% common usages, flexible for the 20%</li>
-              <li>No hassle native executable generation</li>
-          </ul>
-        </p>
-          <div class="listingblock">
-            <div class="content">
-              <pre class="highlight"><code class="bash">$ mvn package -Pnative
+</div>
+
+  <div class="full-width-bg component homepage-content-band">
+  <div class="grid-wrapper">
+    <div class="width-12-12 block-content">
+      <h2>Developer Joy</h2>
+    </div>
+    <div class="width-7-12 width-12-12-m block-content">
+      
+      <p>A cohesive platform for optimized developer joy:
+        <ul>
+            <li>Unified configuration</li>
+            <li>Zero config, live reload in the blink of an eye</li>
+            <li>Streamlined code for the 80% common usages, flexible for the 20%</li>
+            <li>No hassle native executable generation</li>
+        </ul>
+      </p>
+    </div>
+    <div class="width-5-12 width-12-12-m block-content">
+        <div class="listingblock">
+          <div class="content">
+            <pre class="highlight"><code class="bash">$ mvn package -Pnative
 
   # Or
 
-$ gradle quarkus-native</code></pre>
-            </div>
+$ ./gradlew buildNative</code></pre>
           </div>
-          <a href="/vision/developer-joy">Learn more</a>.
-      </div>
+        </div>
+        <a href="/vision/developer-joy">Learn more</a>
+    </div>
+    <div class="width-6-12 width-12-12-m block-image justify-self-start align-self-end">
+      <img src="/assets/images/homepage_comic_1.png"/ class="img-md">
+    </div>
+    <div class="width-6-12 width-12-12-m block-image justify-self-end align-self-end">
+      <img src="/assets/images/homepage_comic_2.png"/ class="img-md">
     </div>
   </div>
-
-
-  <div class="grid-wrapper">
-    <div class="grid__item width-8-12 width-12-12-m">
-      <h2>Best of Breed Libraries and Standards</h2>
-      <p>Quarkus brings a cohesive, fun to use full-stack framework by leveraging best of breed libraries you love and use wired 
-      on a standard backbone. <a href="/vision/standards">Learn more</a>.</p>
-    </div>
-  </div>
-  <div class="grid-wrapper libraries-standards-band">
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://vertx.io/" target="_blank">
-        <img src="/assets/images/logoset_eclipse_vertx.png">
-        <span>Eclipse Vert.x</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="http://hibernate.org" target="_blank">
-        <img src="/assets/images/logoset_hibernate.png">
-        <span>Hibernate</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://resteasy.github.io" target="_blank">
-        <img src="/assets/images/logoset_resteasy.png">
-        <span>Resteasy</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://camel.apache.org" target="_blank">
-        <img src="/assets/images/logoset_apache_camel.png">
-        <span>Apache Camel</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://microprofile.io" target="_blank">
-        <img src="/assets/images/logoset_eclipse_microprofile.png">
-        <span>Eclipse MicroProfile</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://netty.io" target="_blank">
-        <img src="/assets/images/logoset_netty.png">
-        <span>Netty</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://kubernetes.io/" target="_blank">
-        <img src="/assets/images/logoset_kubernetes.png">
-        <span>Kubernetes</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://openshift.io/" target="_blank">
-        <img src="/assets/images/logoset_openshift.png">
-        <span>OpenShift</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://www.jaegertracing.io/" target="_blank">
-        <img src="/assets/images/logoset_jaeger.png">
-        <span>Jaeger</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://prometheus.io/" target="_blank">
-        <img src="/assets/images/logoset_prometheus.png">
-        <span>Prometheus</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="http://kafka.apache.org/" target="_blank">
-        <img src="/assets/images/logoset_apache_kafka.png">
-        <span>Apache Kafka</span>
-      </a>
-    </div>
-    <div class="grid__item width-2-12 width-6-12-m block">
-      <a href="https://infinispan.org" target="_blank">
-        <img src="/assets/images/logoset_infinispan.png">
-        <span>Infinispan</span>
-      </a>
-    </div>
-  </div>
-
 </div>
 
-  <div class="full-width-bg component feedback-community-band">
+  <div class="full-width-bg component homepage-content-band alt-background">
+  <div class="grid-wrapper">
+    <div class="grid__item width-12-12">
+      <h2>Best of Breed Libraries and Standards</h2>
+    </div>
+    <div class="grid__item width-5-12 width-12-12-m">
+      <p>Quarkus provides a cohesive, fun to use, full-stack framework by leveraging a growing list of over fifty best-of-breed libraries that you love and use. All wired on a standard backbone. <a href="/vision/standards">Learn more about Quarkus Extensions</a>.</p>
+    </div>
+    <div class="width-7-12 width-12-12-m block-image justify-self-center">
+      <img src="/assets/images/homepage_extensions_graphic.png"/ class="img-md">
+    </div>
+  </div>
+</div>
+
+  <div class="full-width-bg component alt-background">
   <div class="grid-wrapper">
     <div class="grid__item width-6-12 width-12-12-m">
       <h3>Feedback and Help</h3>
@@ -260,7 +211,7 @@ $ gradle quarkus-native</code></pre>
     <div class="grid__item width-6-12 width-12-12-m">
       <h3>Join the Quarkus Community</h3>
       <p>
-        Check out our <a href="https://github.com/quarkusio/quarkus" target="_blank">Github</a> for details on reporting issues and the process for submitting pull requests.<br /><br />
+        Check out our <a href="https://github.com/quarkusio/quarkus" target="_blank">GitHub</a> for details on reporting issues and the process for submitting pull requests.<br /><br />
         Every contribution is valuable. It can be a bug report, an example application, a feature request, a fix in the documentation or just feedback.
       </p>
     </div>
@@ -278,7 +229,7 @@ $ gradle quarkus-native</code></pre>
     </div>
   </div>
   <div class="grid-wrapper">
-    <p class="grid__item width-3-12">Quarkus is open. Quarkus and its extensions are available under the <a href='https://www.apache.org/licenses/LICENSE-2.0' target='_blank'>Apache Software License 2.0</a> or compatible license.<br /><br />This website was built with <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> is hosted on <a href='https://pages.github.com/' target='_blank'>Github Pages</a> and is completely open source. If you want to make it better, <a href='https://github.com/quarkusio/quarkusio.github.io' target='_blank'>fork the website</a> and show us what you’ve got.</p>
+    <p class="grid__item width-3-12">Quarkus is open. All dependencies of this project are available under the <a href='https://www.apache.org/licenses/LICENSE-2.0' target='_blank'>Apache Software License 2.0</a> or compatible license.<br /><br />This website was built with <a href='https://jekyllrb.com/' target='_blank'>Jekyll</a> is hosted on <a href='https://pages.github.com/' target='_blank'>Github Pages</a> and is completely open source. If you want to make it better, <a href='https://github.com/quarkusio/quarkusio.github.io' target='_blank'>fork the website</a> and show us what you’ve got.</p>
 
     
       <div class="width-1-12 project-links">
@@ -288,6 +239,10 @@ $ gradle quarkus-native</code></pre>
             <li><a href="/">Home</a></li>
           
             <li><a href="/guides">Guides</a></li>
+          
+            <li><a href="/community/#contributing">Contribute</a></li>
+          
+            <li><a href="/faq">FAQ</a></li>
           
             <li><a href="/get-started">Get Started</a></li>
           
@@ -309,20 +264,22 @@ $ gradle quarkus-native</code></pre>
         <span>Get Help</span>
         <ul class="footer-links width-1-12">
           
+            <li><a href="https://groups.google.com/forum/#!forum/quarkus-dev">Forums</a></li>
+          
             <li><a href="https://quarkusio.zulipchat.com">Chatroom</a></li>
-          
-            <li><a href="https://groups.google.com/forum/#!forum/quarkus-dev">Google&nbsp;Groups</a></li>
-          
-            <li><a href="/faq">FAQ</a></li>
           
         </ul>
       </div>
     
 
     
-      <div class="width-6-12 more-links">
-        <span>Quarkus is proudly made of</span>
+      <div class="width-3-12 more-links">
+        <span>Quarkus is made of community projects</span>
         <ul class="footer-links">
+          
+            <li><a href="https://vertx.io/" target="_blank">Eclipse Vert.x</a></li>
+          
+            <li><a href="https://microprofile.io" target="_blank">Eclipse MicroProfile</a></li>
           
             <li><a href="https://hibernate.org" target="_blank">Hibernate</a></li>
           
@@ -330,11 +287,9 @@ $ gradle quarkus-native</code></pre>
           
             <li><a href="https://resteasy.github.io" target="_blank">RESTEasy</a></li>
           
-            <li><a href="https://microprofile.io" target="_blank">Eclipse MicroProfile</a></li>
-          
-            <li><a href="https://vertx.io/" target="_blank">Eclipse Vert.x</a></li>
-          
             <li><a href="https://camel.apache.org" target="_blank">Apache Camel</a></li>
+          
+            <li><a href="https://code.quarkus.io/" target="_blank">And many more...</a></li>
           
         </ul>
       </div>
@@ -344,11 +299,10 @@ $ gradle quarkus-native</code></pre>
   <div class="content redhat-footer">
   <div class="grid-wrapper">
     <span class="licence">
-      <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i> <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC by 3.0</a>
-      | <a href="https://www.redhat.com/en/about/privacy-policy">Red Hat Privacy Policy</a>
+      <i class="fab fa-creative-commons"></i><i class="fab fa-creative-commons-by"></i> <a href="https://creativecommons.org/licenses/by/3.0/" target="_blank">CC by 3.0</a> | <a href="https://www.redhat.com/en/about/privacy-policy">Privacy Policy</a>
     </span>
     <span class="redhat">
-      a Red Hat sponsored project   
+      Sponsored by
     </span>
     <span class="redhat-logo">
       <a href="https://www.redhat.com/" target="_blank"><img src="/assets/images/redhat_reversed.svg"></a>
@@ -361,6 +315,7 @@ $ gradle quarkus-native</code></pre>
   <script type="text/javascript" src="/assets/javascript/mobile-nav.js"></script>
   <script type="text/javascript" src="/assets/javascript/scroll-down.js"></script>
   <script src="/assets/javascript/satellite.js" type="text/javascript"></script>
+  <script src="https://quarkus.io/guides/javascript/config.js" type="text/javascript"></script>
 </body>
 
 </html>

@@ -3,203 +3,147 @@
 
     <channel>
         <title>Quarkus</title>
-        <link>https://quarkus.io/</link>
+        <link>https://quarkus.io</link>
         <description>Quarkus: Supersonic Subatomic Java</description>
-        <lastBuildDate>Tue, 20 Aug 2019 15:16:59 +0000</lastBuildDate>
+        <lastBuildDate>Sat, 07 Mar 2020 00:25:32 +0000</lastBuildDate>
         
         <item>
-            <title>Quarkus 0.21.1 released</title>
+            <title>Quarkus Newsletter #5</title>
             <link>
-                https://quarkus.io//blog/quarkus-0-21-1-released/
+                https://quarkus.io/blog/quarkus-newsletter-5/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We just released Quarkus 0.21.1.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;As for 0.20.0, to build native executables, you will need GraalVM 19.1.1.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;sect1&quot;&gt;
-&lt;h2 id=&quot;whats-new&quot;&gt;&lt;a class=&quot;anchor&quot; href=&quot;#whats-new&quot;&gt;&lt;/a&gt;Wha...
+                Welcome to #5! This month a few blogs with everything from basic introduction, test-containers and a walkthrough on how to do multi-tenancy with Quarkus. Give it a go and if you feel something is missing or have an article coming out for future Quarkus Newsletter install the bookmarklet on your...
             </description>
-            <pubDate>Thu, 15 Aug 2019 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 26 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/quarkus-0-21-1-released/
+                https://quarkus.io/blog/quarkus-newsletter-5/
             </guid>
         </item>
         
         <item>
-            <title>Tips to use Hibernate ORM with Quarkus profiles and live coding mode</title>
+            <title>Qute - Why (Not Just) Yet Another Templating Engine</title>
             <link>
-                https://quarkus.io//blog/hibernate-orm-config-profiles/
+                https://quarkus.io/blog/qute/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Quarkus live coding (aka dev mode) is really useful for applications that mix front end or services and database access.
-There are a few common approaches to make the best of it.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;The first choice is to use &lt;code&gt;quarkus.hibernate-orm.database.generation=drop-and-create&...
+                Qute is an experimental feature. There is no guarantee of stability nor long term presence in the platform until the solution matures. An introduction guide and a more comprehensive reference guide are available. Let&#8217;s start with a very good question: "Why yet another templating engine?". There are plenty of templating...
             </description>
-            <pubDate>Thu, 01 Aug 2019 12:00:00 +0000</pubDate>
+            <pubDate>Sun, 23 Feb 2020 23:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/hibernate-orm-config-profiles/
+                https://quarkus.io/blog/qute/
             </guid>
         </item>
         
         <item>
-            <title>Using CircleCI to Build a Native Quarkus Application</title>
+            <title>Quarkus 1.2.1.Final released - Bugfixes only</title>
             <link>
-                https://quarkus.io//blog/quarkus-app-circleci-build/
+                https://quarkus.io/blog/quarkus-1-2-1-final-released/
             </link>
             <description>
-                &lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;An important part of any software project, Quarkus applications included, is continuous integration. A popular
-tool in the CI space is &lt;a href=&quot;https://circleci.com/&quot;&gt;CircleCI&lt;/a&gt;, especially with open source projects. There is lots
-of documentatio...
+                Today, we released 1.2.1.Final which is a small iteration on top of 1.2.0.Final with only bugfixes and documentation fixes. This is a safe upgrade for everyone using 1.2.0.Final. What&#8217;s new? Bugfixes and documentation improvements The most important issue we fixed is the regression in the MariaDB driver when building native...
             </description>
-            <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+            <pubDate>Wed, 19 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/quarkus-app-circleci-build/
+                https://quarkus.io/blog/quarkus-1-2-1-final-released/
             </guid>
         </item>
         
         <item>
-            <title>Quarkus 0.20.0 released</title>
+            <title>Lufthansa Technik AVIATAR experiences significant cloud resources savings by moving to Kubernetes-native Quarkus</title>
             <link>
-                https://quarkus.io//blog/quarkus-0-20-0-released/
+                https://quarkus.io/blog/aviatar-experiences-significant-savings/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We just released Quarkus 0.20.0.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;admonitionblock warning&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class=&quot;icon&quot;&gt;
-&lt;i class=&quot;fa icon-warning&quot; title=&quot;Warning&quot;&gt;&lt;/i&gt;
-&lt;/td&gt;
-&lt;td class=&quot;content&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;I...
+                Lufthansa Technik, the world’s largest independent provider of airline maintenance, repair, and overhaul (MRO) services, runs a SaaS digital platform, called AVIATAR, for the aviation industry. This platform helps airlines avoid delays and cancellations by using data to better organize and schedule maintenance. The company built and operated AVIATAR using...
             </description>
-            <pubDate>Wed, 31 Jul 2019 00:00:00 +0000</pubDate>
+            <pubDate>Mon, 17 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/quarkus-0-20-0-released/
+                https://quarkus.io/blog/aviatar-experiences-significant-savings/
             </guid>
         </item>
         
         <item>
-            <title>Quarkus Dependency Injection</title>
+            <title>Suomen Asiakastieto Oy chooses Quarkus for their microservices development</title>
             <link>
-                https://quarkus.io//blog/quarkus-dependency-injection/
+                https://quarkus.io/blog/asiakastieto-chooses-quarkus-for-microservices/
             </link>
             <description>
-                &lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Quarkus ArC is a build-time oriented dependency injection based on &lt;a href=&quot;http://cdi-spec.org/&quot;&gt;CDI 2.0&lt;/a&gt;.
-In this blogpost, we&amp;#8217;re going to explain the relationship to the specification and describe some of the benefits and drawbacks ...
+                Based in Helsinki, Finland, The Asiakastieto Group is a leading provider of innovative, digital business and consumer information services in the Nordic region. In the banking, financial services, and retail industries, Asiakastieto’s products and services support risk management, finance and business administration, credit or loan-related decision-making, sales and marketing. When...
             </description>
-            <pubDate>Wed, 24 Jul 2019 23:00:00 +0000</pubDate>
+            <pubDate>Mon, 10 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/quarkus-dependency-injection/
+                https://quarkus.io/blog/asiakastieto-chooses-quarkus-for-microservices/
             </guid>
         </item>
         
         <item>
-            <title>Quarkus 0.19.1 released</title>
+            <title>Introducing 10 new features in Quarkus Tools for Visual Studio Code 1.3.0</title>
             <link>
-                https://quarkus.io//blog/quarkus-0-19.1-released/
+                https://quarkus.io/blog/vscode-quarkus-1.3.0/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We just released Quarkus 0.19.1.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This new version brings a lot of new extensions, especially in the persistence area.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;admonitionblock note&quot;&gt;
-&lt;table&gt;
-&lt;tr&gt;
-&lt;td class=&quot;icon&quot;&gt;
-&lt;i class=&quot;fa icon...
+                Quarkus Tools for Visual Studio Code 1.3.0 has been released on the VS Code Marketplace , the first release of the year. Alongside various bug fixes, this release focused on introducing VS Code support that accompanies new Quarkus features like application.yaml support, server-side templating support and the Quarkus 1.2 kebab-case...
             </description>
-            <pubDate>Thu, 11 Jul 2019 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 07 Feb 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/quarkus-0-19.1-released/
+                https://quarkus.io/blog/vscode-quarkus-1.3.0/
             </guid>
         </item>
         
         <item>
-            <title>Quarkus Runtime Performance</title>
+            <title>Quarkus 1.2.0.Final released - GraalVM 19.3.1 support, Metrics, Cache extension, and more</title>
             <link>
-                https://quarkus.io//blog/runtime-performance/
+                https://quarkus.io/blog/quarkus-1-2-0-final-released/
             </link>
             <description>
-                &lt;div id=&quot;preamble&quot;&gt;
-&lt;div class=&quot;sectionbody&quot;&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;This the first part of a blog series that delves deeper into Quarkus performance.  There are many aspects to the performance of a framework from bootstrap time to memory usage, compile time and runtime performance.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&qu...
+                It has been one month since your last Quarkus fix and you are getting used to our frequent releases so here comes 1.2.0.Final. We have been hard at work to bring a lot of exciting new features: GraalVM 19.3.1 support is finally there, we added a new Cache extension to...
             </description>
-            <pubDate>Sun, 07 Jul 2019 23:00:00 +0000</pubDate>
+            <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/runtime-performance/
+                https://quarkus.io/blog/quarkus-1-2-0-final-released/
             </guid>
         </item>
         
         <item>
-            <title>Quarkus 0.18.0 released</title>
+            <title>Quarkus wins DEVIES award</title>
             <link>
-                https://quarkus.io//blog/quarkus-0-18-released/
+                https://quarkus.io/blog/quarkus-wins-devies-award/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;Quarkus 0.18.0 was just released and is now available on Maven Central.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;We usually release Quarkus every two weeks and it has just been a week since our last release so why release 0.18.0 so soon?
-Well, we have some good news to share: Quarkus now supports GraalVM 19 (require...
+                On January 22, 2020, we were informed that Quarkus had won the DeveloperWeek DEVIES Awards in the category of Best Innovation in: Code Frameworks/Libraries. As a Kubernetes-native Java stack, Quarkus represents a fundamental shift in modern application development that makes Java a great fit for cloud-native application architectures, such as...
             </description>
-            <pubDate>Thu, 27 Jun 2019 00:00:00 +0000</pubDate>
+            <pubDate>Fri, 24 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/quarkus-0-18-released/
+                https://quarkus.io/blog/quarkus-wins-devies-award/
             </guid>
         </item>
         
         <item>
-            <title>Building Kafka Streams applications with Quarkus and Eclipse MicroProfile</title>
+            <title>New fault tolerance implementation in Quarkus</title>
             <link>
-                https://quarkus.io//blog/kafka-streams-applications-with-quarkus-and-microprofile/
+                https://quarkus.io/blog/quarkus-fault-tolerance-4-0/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;&lt;a href=&quot;https://kafka.apache.org/documentation/streams/&quot;&gt;Kafka Streams&lt;/a&gt; is a very popular solution for implementing stream processing applications based on Apache Kafka.
-It lets you do typical data streaming tasks like filtering and transforming messages,
-joining multiple Kafka topics, performing (stateful) calculations,...
+                Since its first release, Quarkus lets you create resilient applications with MicroProfile Fault Tolerance. It uses SmallRye Fault Tolerance to provide this functionality. At the time SmallRye Fault Tolerance was born, Hystrix was still a thing and was chosen to be the core of the implementation. The choice turned out...
             </description>
-            <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+            <pubDate>Thu, 23 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/kafka-streams-applications-with-quarkus-and-microprofile/
+                https://quarkus.io/blog/quarkus-fault-tolerance-4-0/
             </guid>
         </item>
         
         <item>
-            <title>New extension: Hibernate Search + Elasticsearch</title>
+            <title>Quarkus is Eclipse MicroProfile 3.2 compatible!</title>
             <link>
-                https://quarkus.io//blog/hibernate-search-extension/
+                https://quarkus.io/blog/quarkus-eclipse-microprofile-3-2-compatible/
             </link>
             <description>
-                &lt;div class=&quot;paragraph&quot;&gt;
-&lt;p&gt;In the 0.15.0 version of Quarkus, we introduced the Hibernate Search + Elasticsearch extension and, with 0.16.0, we added &lt;a href=&quot;/guides/hibernate-search-guide&quot;&gt;a guide&lt;/a&gt; and &lt;a href=&quot;https://github.com/quarkusio/quarkus-quickstarts/tree/master/hibernate-search-elasticsearch&quot;&gt;a quickstart&lt;/a&gt; explai...
+                With the announcement that Quarkus 1.1 was available in December 2019, and after a tremendous effort from all the contributors and community, we’re excited to announce that Quarkus 1.1 is Eclipse MicroProfile 3.2 compatible! MicroProfile 3.2 was released November 2019, bringing updates to the Metrics and Health specifications, but what...
             </description>
-            <pubDate>Tue, 18 Jun 2019 00:00:00 +0000</pubDate>
+            <pubDate>Tue, 21 Jan 2020 00:00:00 +0000</pubDate>
             <guid>
-                https://quarkus.io//blog/hibernate-search-extension/
+                https://quarkus.io/blog/quarkus-eclipse-microprofile-3-2-compatible/
             </guid>
         </item>
         
